@@ -249,14 +249,3 @@ python -m test.update_test_cycle --file ..\resources\update_test_cycle.xlsx
 ```powershell
 python src/create_excel_templates.py
 ```
-
----
-
-## Supported Document Formats
-
-| Format | Library |
-|---|---|
-| `.docx` | `python-docx` |
-| `.pdf` | `pdfplumber` |
-| `.txt` | built-in |
-
